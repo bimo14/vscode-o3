@@ -1,0 +1,21 @@
+{
+    "name": "ozone",
+    "displayName": "Ozone",
+    "description": "Ozone Color Theme for Visual Studio Code",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "O3 (Dark)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/o3-dark.json"
+            }
+        ]
+    }
+}
